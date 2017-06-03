@@ -9,7 +9,7 @@ var game = new Phaser.Game({
   // scaleMode:   Phaser.ScaleManager.NO_SCALE,
   // transparent: false,
    width:       480,
-   parent: "gameDiv"
+   parent: "gameDiv",
   state: {
 
     init: function() {
