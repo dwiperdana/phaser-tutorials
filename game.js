@@ -20,6 +20,7 @@ var game = new Phaser.Game({
       this.load.baseURL = 'https://cdn.jsdelivr.net/gh/samme/phaser-examples-assets@v1.0.0/';
       this.load.crossOrigin = 'anonymous';
       this.load.image('dude', 'sprites/phaser-dude.png');
+      this.load.image('ball','https://raw.githubusercontent.com/dwiperdana/phaser-tutorials/master/01/asset/ballGrey.png');
     },
 
     create: function() {
